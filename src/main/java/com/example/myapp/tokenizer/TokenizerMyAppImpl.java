@@ -5,9 +5,8 @@ import dev.langchain4j.agent.tool.ToolExecutionRequest;
 import dev.langchain4j.agent.tool.ToolSpecification;
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.model.Tokenizer;
-import org.apache.commons.collections4.IterableUtils;
 import org.springframework.stereotype.Component;
-import java.util.stream.StreamSupport;
+
 
 @Component
 public class TokenizerMyAppImpl implements Tokenizer {
